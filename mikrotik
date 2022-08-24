@@ -1,4 +1,3 @@
-- name: Display resources
   community.network.routeros_command:
     commands: /system resource print
   register: routeros_resources

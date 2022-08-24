@@ -1,3 +1,12 @@
-community.network.routeros_command:
-   commands: /system resource print
+---
+- hosts: mikrotik
+
+  tasks:
+    - name: Change Interfaces Name
+      routeros_command:
+        commands:
+          - /interface set ether2 name="LANtest" disabled=no
+
+...
+ 
    

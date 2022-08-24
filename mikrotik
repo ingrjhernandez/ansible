@@ -1,5 +1,5 @@
 ---
-- hosts: hosts
+- hosts: all
   tasks:
     - name: Change Interfaces Name
       routeros_command:

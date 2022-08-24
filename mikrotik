@@ -1,5 +1,5 @@
 ---
-- hosts: mikrotik
+- hosts: Mikrotik
 
   tasks:
     - name: Change Interfaces Name
